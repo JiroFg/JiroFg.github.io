@@ -1,0 +1,41 @@
+.theme-toggle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.toggle-input{
+    visibility: hidden;
+}
+
+.toggle-label{
+    color: var(--text-color);
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.toggle-label::before{
+    content: "";
+    height: 1rem;
+    width: 2rem;
+    border-radius: 1rem;
+    background-color: var(--theme-toggle-bg);
+    margin-right: 0.8rem;
+    transition: background-color 0.25s ease-in-out;
+}
+
+.toggle-label::after{
+    content: "";
+    height: 0.8rem;
+    width: 0.8rem;
+    border-radius: 1rem;
+    background-color: var(--theme-toogle);
+    position: absolute;
+    margin-left: 0.15rem;
+    transition: background-color 0.25s ease-in-out, transfor 0.25s ease-in-out;
+}
+
+.toggle-input:checked + .toggle-label::after{
+    transform: translateX(120%);
+}

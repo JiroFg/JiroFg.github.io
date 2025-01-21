@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+:root{
+  --bg-color: #f2f3f4;
+  --text-color: black;
+  --secondary-text-color: #515a5a;
+  --btn-bg: #28b463;
+  --contrast-color: #28b463;
+  --theme-toggle-bg: #f9e79f;
+  --theme-toogle: #f5b041;
+}
+
+[data-theme="dark"]{
+  --bg-color: #282c31;
+  --text-color: white;
+  --secondary-text-color: #b3b6b7;
+  --theme-toggle-bg: #2980b9;
+  --theme-toogle: #154360;
+}

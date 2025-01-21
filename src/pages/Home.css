@@ -1,0 +1,21 @@
+.home-intro{
+    margin-top: 8rem;
+    display: flex;
+    color: var(--text-color)
+}
+
+.home-info p{
+    font-size: larger;
+    margin-top: 1rem;
+}
+
+.home-info h2, .home-info strong{
+    color: var(--contrast-color)
+}
+
+.home-img img{
+    margin-left: 1rem;
+    width: 20rem;
+    height: auto;
+    clip-path: circle();
+}

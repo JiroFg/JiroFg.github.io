@@ -1,0 +1,9 @@
+.tech-stack{
+    margin-top: 1rem;
+}
+
+.tech-list{
+    margin-top: 0.5rem;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
