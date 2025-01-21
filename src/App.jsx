@@ -39,6 +39,8 @@ function App(){
         return <Contact/>
       case 'about':
         return <About/>
+      default:
+        toPage('home')
     }
   }
 
