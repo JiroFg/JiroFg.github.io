@@ -31,8 +31,6 @@ function App(){
 
   function getContent(){
     switch(page){
-      case 'home':
-        return <Home/>
       case 'projects':
         return <Projects/>
       case 'contact':
@@ -40,7 +38,7 @@ function App(){
       case 'about':
         return <About/>
       default:
-        toPage('home')
+        return <Home/>
     }
   }
 
