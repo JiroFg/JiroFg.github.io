@@ -2,11 +2,11 @@
   "name": "edsonfuentes-landing-page",
   "private": true,
   "version": "0.0.1",
-  "homepage": "https://jirofg.github.io/home/",
+  "homepage": "https://jirofg.github.io/JiroFg.github.io/",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
