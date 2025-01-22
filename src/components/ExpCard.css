@@ -1,0 +1,11 @@
+.exp-card{
+    display: flex;
+    align-items: center;
+    margin-top: 0.5rem;
+    cursor: pointer;
+}
+
+.exp-card span{
+    font-size: medium;
+    color: var(--secondary-text-color) !important
+}

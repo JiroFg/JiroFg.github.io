@@ -4,12 +4,6 @@
     color: var(--text-color)
 }
 
-@media only screen and (max-width: 768px) {
-    .home-intro{
-        flex-direction: column;
-    }
-}
-
 .home-info p{
     font-size: larger;
     margin-top: 1rem;
@@ -55,6 +49,19 @@
     }
     100% {
         opacity: 0;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .home-intro{
+        flex-direction: column;
+    }
+    .home-img img{
+        width: 18rem;
+    }
+    .home-img{
+        display: flex;
+        justify-content: center;
     }
 }
 
