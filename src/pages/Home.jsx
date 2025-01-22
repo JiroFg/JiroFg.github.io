@@ -27,6 +27,15 @@ export default function Home(){
                         <div className="bubble"><span>✌️</span></div>
                     </div>
                     <img src="/profile.jpeg" alt="profile" onMouseEnter={handleMouseEnter}/>
+                    <div className='cv-container'>
+                        <a
+                        href={"./cv_edson_fuentes.pdf"}
+                        download={"cv_edson_fuentes.pdf"}
+                        className='cv-btn'
+                        >
+                            Descargar CV
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>

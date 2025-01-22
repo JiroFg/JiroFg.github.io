@@ -1,9 +1,16 @@
 .tech-stack{
-    margin-top: 1rem;
+    margin: 1rem 0 1rem 0;
 }
 
 .tech-list{
     margin-top: 0.5rem;
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .tech-list{
+        grid-template-columns: auto auto;
+    }
 }
