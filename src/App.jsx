@@ -16,6 +16,8 @@ function App(){
       return true
     }else if(currentOption == 'false'){
       return false
+    } else {
+      return true
     }
   }
 
