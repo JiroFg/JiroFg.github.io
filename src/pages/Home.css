@@ -25,3 +25,62 @@
     height: auto;
     clip-path: circle();
 }
+
+.home-img{
+    position: relative;
+}
+
+.bubble-container{
+    position: absolute;
+    top: -2rem;
+    right: 0;
+    z-index: 1;
+    opacity: 0;
+}
+
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    30% {
+        opacity: 1;
+    }
+    70% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.bubble {
+    position: relative;
+    background: #ffffff;
+    color: #FFFFFF;
+    font-family: Arial;
+    font-size: 2rem;
+    line-height: 120px;
+    text-align: center;
+    width: 6rem;
+    height: 6rem;
+    border-radius: 100%;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bubble:after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 0;
+    z-index: 1;
+    border-style: solid;
+    border-color: #ffffff transparent;
+    border-width: 20px 20px 0;
+    bottom: -10px;
+    left: 50%;
+    margin-left: -20px;
+}
