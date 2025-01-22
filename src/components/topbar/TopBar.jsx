@@ -5,7 +5,13 @@ import { useEffect, useState } from "react";
 
 export default function TopBar({isDark, setIsDark, toPage}){
 
-    const [isOpen, setIsOpen] = useState(true)
+    const [isOpen, setIsOpen] = useState(()=>{
+        if(screen.width > 768){
+            return true
+        }else{
+            return false
+        }
+    })
 
     useEffect(()=>{
         window.addEventListener("resize", ()=>{
