@@ -18,7 +18,7 @@ export default function Home(){
                 <div className="home-info">
                     <h1 onMouseEnter={handleMouseEnter}>Edson Jair <br />Fuentes García</h1>
                     <h2>Full-Stack Developer desde hace más de 3 años</h2>
-                    <p>Desarrollando con tecnologías y frameworks modernos. ¡Aplicando las mejores prácticas para proyectos <strong>escalables</strong> y <strong>testeables!</strong></p>
+                    <p>Desarrollando con tecnologías y frameworks modernos. ¡Aplicando las mejores prácticas para proyectos <strong>mantenibles</strong>, <strong>escalables</strong> y <strong>testeables!</strong></p>
                     <Experience/>
                     <TechStack/>
                 </div>

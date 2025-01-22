@@ -1,6 +1,6 @@
 import './ExpCard.css'
 
-export default function ExpCard({imgSrc, alt, url}){
+export default function ExpCard({name, descrip, imgSrc, alt, url}){
 
     function handleClickCard(url){
         window.open(url, '_blank');
@@ -10,9 +10,9 @@ export default function ExpCard({imgSrc, alt, url}){
         <div className='exp-card' onClick={()=>handleClickCard(url)}>
             <img src={imgSrc} alt={alt} />
             <div>
-                <strong>Kuantik</strong>
+                <strong>{name}</strong>
                 <br />
-                <span>Backend Developer 2022-2023</span>
+                <span>{descrip}</span>
             </div>
         </div>
     )
