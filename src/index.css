@@ -9,12 +9,14 @@
 
 :root{
   --bg-color: #f2f3f4;
-  --text-color: black;
+  --text-color: #3d3d3d;
   --secondary-text-color: #515a5a;
   --btn-bg: #28b463;
   --contrast-color: #28b463;
   --theme-toggle-bg: #f9e79f;
   --theme-toogle: #f5b041;
+  --topbar-color: white;
+  --footer-color: #dadada;
 }
 
 [data-theme="dark"]{
@@ -23,4 +25,6 @@
   --secondary-text-color: #b3b6b7;
   --theme-toggle-bg: #2980b9;
   --theme-toogle: #154360;
+  --topbar-color: #282c31;
+  --footer-color: #2e3339
 }

@@ -19,6 +19,10 @@
     color: var(--contrast-color)
 }
 
+.home-info h1{
+    font-size: 3.5rem;
+}
+
 .home-img img{
     margin-left: 1rem;
     width: 20rem;

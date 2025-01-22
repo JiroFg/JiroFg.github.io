@@ -18,7 +18,7 @@ export default function Experience(){
                 </div>
             </div>
             <div className='exp-card' onClick={()=>handleClickCard("https://global-smartb.com/")}>
-                <img src="/kuantik.jpg" alt="GSB Img" />
+                <img src="/gsb.png" alt="GSB Img" />
                 <div>
                     <strong>Global Smart Business</strong>
                     <br />

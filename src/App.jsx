@@ -5,6 +5,7 @@ import Home from './pages/Home.jsx'
 import Projects from './pages/Projects.jsx'
 import Contact from './pages/Contact.jsx'
 import About from './pages/About.jsx'
+import Footer from './components/footer/Footer.jsx'
 import './App.css'
 
 function App(){
@@ -51,6 +52,7 @@ function App(){
             {getContent()}
           </div>
         </div>
+        <Footer/>
       </div>
     </BrowserRouter>
   )
