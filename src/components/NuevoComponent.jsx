@@ -1,5 +1,8 @@
 export default function NuevoComponente(){
     return(
-        <div>Nuevo Componente</div>
+        <div>
+            <h1>Nuevo componente</h1>
+            <p>Hola</p>
+        </div>
     )
 }
