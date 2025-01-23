@@ -3,9 +3,21 @@
     align-items: center;
     margin-top: 0.5rem;
     cursor: pointer;
+    border-radius: 1rem;
+}
+
+.exp-card:hover{
+    color: white !important;
 }
 
 .exp-card span{
     font-size: medium;
     color: var(--secondary-text-color) !important
+}
+
+.exp-img{
+    width: 3rem;
+    height: auto;
+    clip-path: circle();
+    margin: 0 1rem 0 0;
 }

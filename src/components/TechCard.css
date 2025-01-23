@@ -1,17 +1,18 @@
 .tech-card{
-    padding: 0.5rem;
+    padding: 1rem 0 1rem 0;
     border-radius: 0.5rem;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     background-color: var(--card-bg-color);
+    color: var(--text-color);
+    font-size: large;
+    font-weight: bold;
 }
 
 .tech-card img{
-    width: 1rem;
+    width: 2rem;
     height: auto;
-    margin-right: 0.5rem;
-}
-
-.tech-card strong{
-    color: var(--text-color) !important;
+    margin-bottom: 0.5rem;
 }

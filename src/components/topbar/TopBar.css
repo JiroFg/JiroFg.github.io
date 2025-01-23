@@ -28,7 +28,12 @@
 }
 
 .top-bar-link:hover, .menu-top-bar:hover{
-    color: var(--contrast-color);
+    text-shadow:
+        0 0 10px #fff,
+        0 0 20px green,
+        0 0 30px green,
+        0 0 40px green,
+        0 0 55px green
 }
 
 .logo-top-bar img{

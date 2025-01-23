@@ -8,7 +8,7 @@ export default function ExpCard({name, descrip, imgSrc, alt, url}){
 
     return(
         <div className='exp-card' onClick={()=>handleClickCard(url)}>
-            <img src={imgSrc} alt={alt} />
+            <img className='exp-img' src={imgSrc} alt={alt} />
             <div>
                 <strong>{name}</strong>
                 <br />

@@ -106,7 +106,8 @@
 
 .cv-btn{
     margin-top: 0.5rem;
-    padding: 1rem 2.5rem;
+    width: 14rem;
+    height: 3rem;
     background-color: var(--contrast-color);
     color: var(--text-color);
     border-radius: 20rem;
@@ -114,4 +115,21 @@
     font-size: large;
     font-weight: bold;
     text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader {
+    border: 0.5rem solid #b3b6b7;
+    border-top: 0.5rem solid var(--text-color);
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
 }
